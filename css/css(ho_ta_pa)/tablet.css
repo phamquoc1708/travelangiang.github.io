@@ -1,0 +1,28 @@
+@media ( min-width: 768px ) and ( max-width: 991px) {
+    .appear-tablet{
+        display: block;
+    }
+    .hidden-tablet{
+        display: none;
+    }
+    .total__navbar{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        padding-left: 24px;
+    }
+    .total__navbar-list{
+        flex-direction: column;
+    }
+    .total__navbar-list-item{
+        margin: 16px 0;
+    }
+    .total__navbar-list-item-link{
+        padding: 0;
+        display: inline-block;
+        height: 34px;
+        min-width: 146px;
+        line-height: 34px;
+        text-align: center;
+    }
+}
